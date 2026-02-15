@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Specchio Mentale</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      padding: 40px;
+      background: #111;
+      color: white;
+    }
+
+    button {
+      font-size: 20px;
+      padding: 15px;
+      margin-top: 20px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Specchio Mentale</h1>
+
+<p id="scenario">
+Dici una verità che ferisce o una bugia che protegge?
+</p>
+
+<button onclick="scegli('verità')">Verità</button>
+<button onclick="scegli('bugia')">Bugia</button>
+
+<script>
+function scegli(opzione){
+  alert("Hai scelto: " + opzione);
+}
+</script>
+
+</body>
+</html>
